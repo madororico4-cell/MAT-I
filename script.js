@@ -599,7 +599,6 @@ function submitExam() {
     if(submitBtn) submitBtn.remove();
     container.querySelector('.exam-paper').appendChild(resultDiv);
 }
-
 function showFinalResult() {
     const container = document.getElementById('quiz-data-container');
     let message = sessionScore >= (maxScore/2) ? "أداء ممتاز! 🔥" : "حاول مرة أخرى لتحسين النتيجة 💪";
